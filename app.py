@@ -114,8 +114,8 @@ def user_input_features():
 #st.subheader('line chart')
 #st.line_chart(data_df)
 
-st.dataframe(data_df)
 
+st.table(data_df)
 ################################################################
 
 #모델 
