@@ -105,13 +105,13 @@ def user_input_features():
                            MOTORSPEED6, MOTORSPEED7, MOTORSPEED8, MOTORSPEED9, MOTORSPEED10]
             }
     data_df = pd.DataFrame(data)
-    st.dataframe(data_df)
+    #st.dataframe(data_df)
     return data_df
 
 # 그래프
-st.subheader(' ')
-st.subheader('line chart')
-st.line_chart(data_df)
+#st.subheader(' ')
+#st.subheader('line chart')
+#st.line_chart(data_df)
 
 
 
