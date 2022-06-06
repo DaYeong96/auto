@@ -110,12 +110,15 @@ def user_input_features():
     return data_df
 
 # 그래프
-#st.subheader(' ')
-#st.subheader('line chart')
-#st.line_chart(data_df)
+st.title(' ')
+st.subheader("생산품의 수분함유량 line chart")
+st.line_chart(data_df[['INSP']])
+st.subheader("용해 온도 line chart")
+st.line_chart(data_df[['MELT_TEMP']])
+st.subheader("용해 교반속도 line chart")
+st.line_chart(data_df[['MOTORSPEED']])
 
 
-st.table(data_df)
 ################################################################
 
 #모델 
