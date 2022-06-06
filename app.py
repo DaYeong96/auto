@@ -26,8 +26,7 @@ def welcome():
 st.title('용해탱크 이상탐지 예측 서비스')
 st.title(' ')
 st.subheader('(1) 생산품의 수분함유량, 용해온도, 용해 교반속도를 10개씩 입력해주세요.')
-st.subheader('시간의 흐름을 판단하기 위해 10개의 값이 필요합니다.')
-
+st.markdown("#### 시간의 흐름을 파악하기 위해 10개의 값이 필요합니다.")
 
 def user_input_features():
     
@@ -106,7 +105,7 @@ def user_input_features():
                            MOTORSPEED6, MOTORSPEED7, MOTORSPEED8, MOTORSPEED9, MOTORSPEED10]
             }
     data_df = pd.DataFrame(data)
-    #st.dataframe(data_df)
+    st.dataframe(data_df)
     return data_df
 
 # 그래프
