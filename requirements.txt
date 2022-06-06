@@ -9,7 +9,5 @@ seaborn
 streamlit
 scikit-learn
 keras
-load_model
 tensorflow
-tf2
 cv2
