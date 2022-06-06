@@ -30,7 +30,7 @@ st.markdown("#### 시간의 흐름을 파악하기 위해 10개의 값이 필요
 
 def user_input_features():
     
-    
+    st.subheader(' ')
     INSP1 = st.slider('1 생산품의 수분함유량을 입력하세요', 0, 5)    #변수별로 10개씩 
     st.write('1 생산품의 수분함유량:', INSP1)
     INSP2 = st.slider('2 생산품의 수분함유량을 입력하세요', 0, 5)    
@@ -53,7 +53,7 @@ def user_input_features():
     st.write('10 생산품의 수분함유량:', INSP10)
    
 
-    
+    st.subheader(' ')
     MELT_TEMP1 = st.slider('1 용해 온도를 입력하세요', 300, 900)  
     st.write('1 용해 온도:', MELT_TEMP1)
     MELT_TEMP2 = st.slider('2 용해 온도를 입력하세요', 300, 900)  
@@ -75,7 +75,7 @@ def user_input_features():
     MELT_TEMP10 = st.slider('10 용해 온도를 입력하세요', 300, 900)  
     st.write('10 용해 온도:', MELT_TEMP10)
     
-
+    st.subheader(' ')
     MOTORSPEED1 = st.slider('1 용해 교반속도를 입력하세요', 0, 2000)   
     st.write('1 용해 교반속도:', MOTORSPEED1)
     MOTORSPEED2 = st.slider('2 용해 교반속도를 입력하세요', 0, 2000)   
