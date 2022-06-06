@@ -5,7 +5,7 @@ import pandas as pd
 import joblib
 import matplotlib.pyplot as plt
 import matplotlib
-import cv2
+#import cv2
 #import seaborn as sns
 import plotly.express as px
 #from skimage import io
