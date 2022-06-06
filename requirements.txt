@@ -10,4 +10,3 @@ streamlit
 scikit-learn
 keras
 tensorflow
-cv2
