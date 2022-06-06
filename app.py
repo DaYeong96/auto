@@ -105,7 +105,7 @@ def user_input_features():
             'MOTORSPEED' : [MOTORSPEED1, MOTORSPEED2, MOTORSPEED3, MOTORSPEED4, MOTORSPEED5,
                            MOTORSPEED6, MOTORSPEED7, MOTORSPEED8, MOTORSPEED9, MOTORSPEED10]
             }
-    data_df = pd.DataFrame(data)
+    data_df = pd.DataFrame(data, index=range(10))
     #st.dataframe(data_df)
     return data_df
 
