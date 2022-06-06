@@ -105,18 +105,18 @@ def user_input_features():
             'MOTORSPEED' : [MOTORSPEED1, MOTORSPEED2, MOTORSPEED3, MOTORSPEED4, MOTORSPEED5,
                            MOTORSPEED6, MOTORSPEED7, MOTORSPEED8, MOTORSPEED9, MOTORSPEED10]
             }
-    data_df = pd.DataFrame(data, index=range(10))
+    data_df = pd.DataFrame(data)
     #st.dataframe(data_df)
     return data_df
 
 # 그래프
 st.title(' ')
-st.subheader("생산품의 수분함유량 line chart")
-st.line_chart(data_df[['INSP']])
-st.subheader("용해 온도 line chart")
-st.line_chart(data_df[['MELT_TEMP']])
-st.subheader("용해 교반속도 line chart")
-st.line_chart(data_df[['MOTORSPEED']])
+# st.subheader("생산품의 수분함유량 line chart")
+# st.line_chart(data_df[['INSP']])
+# st.subheader("용해 온도 line chart")
+# st.line_chart(data_df[['MELT_TEMP']])
+# st.subheader("용해 교반속도 line chart")
+# st.line_chart(data_df[['MOTORSPEED']])
 
 
 ################################################################
